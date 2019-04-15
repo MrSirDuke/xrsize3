@@ -6,4 +6,7 @@ class Nisse
 		int Age();
 		double Weight();
 		void setAge(int age);
+	private:
+		int m_age;
+		double m_weight;
 };
